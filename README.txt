@@ -6,3 +6,8 @@ It's more than easy to use just submit the data you are asked and wait
 
 After finishing you will just upload the latest.yml, run the listner, and wait
 
+How to use:
+1- git clone https://github.com/Far1s-404/electron-destructor.git
+2- cd electron-destructor
+3- chmod +x electron-destructor.sh
+4- ./electron-destructor.sh
