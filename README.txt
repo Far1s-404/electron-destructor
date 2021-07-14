@@ -9,5 +9,5 @@ After finishing you will just upload the latest.yml, run the listner, and wait
 How to use:
 1- git clone https://github.com/Far1s-404/electron-destructor.git
 2- cd electron-destructor
-3- chmod +x electron-destructor.sh
-4- ./electron-destructor.sh
+3- chmod +x electron_destructor.sh
+4- ./electron_destructor.sh
