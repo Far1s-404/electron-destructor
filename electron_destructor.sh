@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "You may need run the script as root or have extra permissions"
-sleep2
+sleep 2
 read -e -p "LHOST=" LHOST
 read -e -p "LPORT=" LPORT
 read -e -p "Choose name=" PAYLOAD
